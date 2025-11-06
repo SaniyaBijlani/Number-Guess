@@ -1,0 +1,70 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:320px;
+    border:2px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.d-flex{
+    display: flex;
+}
+#username, #password{
+   width:130px;
+   height:18px;
+   padding:10px;
+   border:2px solid none;
+   margin:2px;
+   border-radius: 9px;
+}
+.foo{
+    height:30px;
+}
+
+.heading{
+    position:absolute;
+    top:92px;
+}
+.parent{
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+   background-color: #bde0fe;
+   position: relative;
+
+}
+
+.button{
+    height:35px;
+    line-height: 35px;
+    width:90px;
+    margin:2px auto;
+    border:5px solid #265fa9;
+    background-color: #265fa9;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.fail{
+    background-color: red;
+    color: azure;
+}
+
+.success{
+    background-color: green;
+    color: azure;
+}
+
+.d-none{
+    display: none !important;
+}
+.d-block{
+    display: block;
+}
